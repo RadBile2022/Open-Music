@@ -1,0 +1,22 @@
+{
+  "env": {
+    "commonjs": true,
+    "es2021": true,
+    "node": true
+  },
+  "extends": "airbnb-base",
+  "overrides": [],
+  "parserOptions": {
+    "ecmaVersion": "latest"
+  },
+  "rules": {
+    "no-console": "off",
+    "no-underscore-dangle": "off",
+    "no-tabs": ["error", { "allowIndentationTabs": true }],
+    "no-unused-vars": "off",
+    "arrow-body-style": "off",
+    "quotes": ["error", "single"],
+    "no-else-return": ["error", { "allowElseIf": true }],
+    "consistent-return": "off"
+  }
+}
